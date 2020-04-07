@@ -15,7 +15,7 @@ const PaletteItem = ({ color, active, onClick }) => {
 }
 
 
-const Palette = ({ selected }) => {
+const Palette = ({ selected, onSelect }) => {
     return (
         <div className="Palette">
             <h2>Select Color</h2>
@@ -25,6 +25,7 @@ const Palette = ({ selected }) => {
                         color={color}
                         key={color}
                         active={selected === color}
+                        onClick={() => onSelect(color)}
                     />
                 ))}
             </div>

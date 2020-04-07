@@ -1,10 +1,31 @@
 .Counter {
-    border : 1px solid black;
+    border : 1px solid #c4b5b5;
     padding : 1rem;
     width: 298px;
+    text-align: center;
 }
 
 .Counter h1 {
     margin-top : 0;
     margin-bottom : 1rem;
 }
+
+.button{
+    padding-right: 30px;
+    border: none;
+    background: #ffffff;
+    font-size: 30px;
+}
+
+.button2 {
+    border: none;
+    background: #ffffff;
+    font-size: 30px;
+    position: relative;
+    bottom: 1px;
+}
+
+.button:focus , .button2:focus{
+    outline:none;
+}
+

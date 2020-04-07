@@ -1,4 +1,5 @@
 .App {
-
+  position: absolute;
+  margin-left: 50%;
   padding : 1rem;
 }

@@ -1,6 +1,6 @@
 .WaitingList {
     margin-top : 1rem;
-    border: 1px solid black;
+    border: 1px solid #c4b5b5;
     width : 298px;
     padding: 1rem;
     display: flex;
@@ -10,6 +10,8 @@
 .WaitingList h2 {
     margin-top : 0;
     margin-bottom: 1rem;
+    text-align: center;
+    color: #9bb5b5;
 }
 
 .WaitingList form {
@@ -18,12 +20,25 @@
 
 .WaitingList form input {
     flex: 1;
-    font-size : 1.25rem;
+    font-size: 1rem;
+    border-bottom: 1px solid #b39797;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.WaitingList form input:focus {
+    outline:2px solid #b39797;
 }
 
 .WaitingList form button {
-    font-size : 1.25rem;
-    padding : 0.5rem;
+    padding: 0.7em;
+    border: none;
+    background: #dac0d6;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 40px;
 }
 
 .WaitingList ul {
@@ -35,7 +50,7 @@
 .WaitingList ul li {
     display: flex;
     padding : 0.5rem;
-    border : 1px solid black;
+    border-bottom: 1px solid #c2b4b4;
 }
 
 .WaitingList ul li+li {
@@ -44,9 +59,30 @@
 
 .WaitingList ul li .text {
     flex : 1;
+    margin-top: 5px;
 }
 
 .WaitingList ul li .text.entered{
     text-decoration : line-through;
     color :black;
+}
+
+
+
+.enterBtn {
+    border:none;
+    padding: 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    background: #dac0d6;
+    font-weight: 700;
+}
+
+.leaveBtn {
+    border:none;
+    padding: 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    background: #dac0d6;
+    font-weight: 700;
 }

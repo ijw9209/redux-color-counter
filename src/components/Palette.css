@@ -1,6 +1,7 @@
 .Palette {
-    background : blueviolet;
+    background : #bc9ab9;
     color: white;
+    text-align: center;
     padding : 1rem;
     display : inline-flex;
     flex-direction: column;
